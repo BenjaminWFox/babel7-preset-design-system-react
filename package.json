@@ -1,5 +1,5 @@
 {
-  "name": "@salesforce/babel-preset-design-system-react",
+  "name": "@salesforce-fork/babel-preset-design-system-react",
   "version": "3.0.0",
   "description": "Babel preset to parse the Salesforce Design System React source code.",
   "main": "index.js",
@@ -8,7 +8,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/salesforce/design-system-react.git"
+    "url": "git+https://github.com/BenjaminWFox/babel7-preset-design-system-react.git"
   },
   "keywords": [
     "babel",
@@ -23,8 +23,5 @@
   ],
   "author": "Stephen James <sjames@salesforce.com>",
   "license": "SEE LICENSE IN README.md",
-  "bugs": {
-    "url": "https://github.com/salesforce/design-system-react/issues"
-  },
-  "homepage": "https://github.com/salesforce/design-system-react#readme"
+  "homepage": "https://github.com/BenjaminWFox/babel7-preset-design-system-react/#README.md"
 }
