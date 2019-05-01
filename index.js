@@ -7,13 +7,7 @@
 module.exports = function buildPreset() {
 	return {
 		presets: [
-			require('@babel/env').default(null, {
-				targets: {
-					browsers: ['last 2 versions', 'ie 11'],
-					node: '8.9.4',
-				},
-				modules: false,
-			}),
+			require('@babel/preset-env').default(),
 			require('@babel/preset-react'),
 		],
 		plugins: [
