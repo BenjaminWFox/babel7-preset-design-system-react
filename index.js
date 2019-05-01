@@ -7,13 +7,7 @@
 module.exports = function buildPreset() {
 	return {
 		presets: [
-			require('@babel/preset-env').default((api) => { api.assertVersion(7); }, {
-				targets: {
-					browsers: ['last 2 versions', 'ie 11'],
-					node: '8.9.4',
-				},
-				modules: false,
-			}),
+			require('@babel/preset-env'),
 			require('@babel/preset-react'),
 		],
 		plugins: [
